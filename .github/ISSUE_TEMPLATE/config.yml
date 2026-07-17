@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: xAI API documentation
+    url: https://docs.x.ai
+    about: Official Grok / xAI developer docs (models, endpoints, pricing).
+  - name: xAI console
+    url: https://console.x.ai
+    about: Create API keys and manage billing.
