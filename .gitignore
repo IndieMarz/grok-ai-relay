@@ -1,7 +1,42 @@
+# Byte-compiled / cache
 __pycache__/
-*.pyc
-.env
-.DS_Store
-build/
-dist/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual envs & packaging
+.venv/
+venv/
+env/
 *.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Test / type / lint
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Env & secrets — never commit keys
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local notebooks / scratch
+*.ipynb_checkpoints/
+scratch/
