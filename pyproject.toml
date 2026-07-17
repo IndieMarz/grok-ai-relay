@@ -1,0 +1,19 @@
+[project]
+name = "grok-ai-relay"
+version = "0.1.0"
+description = "A Python-based AI relay and toolkit for Grok/xAI API interactions."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "requests",
+    "httpx",
+]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+
+[tool.isort]
+profile = "black"
