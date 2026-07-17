@@ -1,0 +1,9 @@
+# Default review owner for all paths.
+# Replace or extend as the project gains more maintainers.
+* @IndieMarz
+
+# Core library
+/src/ @IndieMarz
+
+# CI and repo automation
+/.github/ @IndieMarz
